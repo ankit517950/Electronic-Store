@@ -27,7 +27,7 @@ public class CreateOrderRequest {
     private String billingAddress;
     @NotBlank(message = "Phone number is mandatory !!")
     private String billingPhone;
-    @NotBlank(message = "biling name is required!!")
+    @NotBlank(message = "BilingName is mandatory!!")
     private String billingName;
 
 }
