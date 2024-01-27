@@ -25,7 +25,7 @@ public class CreateOrderRequest {
     private String paymentStatus="NOTPAID";
     @NotBlank(message = "address is required!!")
     private String billingAddress;
-    @NotBlank(message = "phone number is required!!")
+    @NotBlank(message = "Phone number is mandatory !!")
     private String billingPhone;
     @NotBlank(message = "biling name is required!!")
     private String billingName;
